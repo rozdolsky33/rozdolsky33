@@ -1,6 +1,16 @@
 ## Hi there 👋
 
+I'm a **Principal SRE and Go developer** at Oracle, working on cloud-native infrastructure and platform tooling.
 
-## About me
+## What I build
 
-Engineer with a passion for technology, software architecture, and distributed systems. Enthusiastic about cloud-native solutions and best practices, with hands-on experience in Kubernetes, CI/CD pipelines, and automation using Java, Python and Go to build resilient, scalable systems.
+- **Platform tooling** — Go CLIs, automation frameworks, and internal developer platforms that reduce toil and give teams self-service capabilities
+- **Observability** — OpenTelemetry pipelines, distributed tracing, SLI/SLO instrumentation on Kubernetes
+- **Infrastructure automation** — Terraform, OCI Functions, event-driven provisioning, zero-touch deployment
+- **Reliability engineering** — Incident response, runbooks, database migrations at scale (MySQL, Redis/Valkey)
+
+## Current focus
+
+Building on OCI (FedRAMP OC2) — Kubernetes, OpenTelemetry, Go, and whatever eliminates the next piece of manual toil.
+
+📌 Check out [ocloud](https://github.com/rozdolsky33/ocloud) — my open-source Go CLI for OCI operations, used daily across my org.
