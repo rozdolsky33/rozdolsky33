@@ -32,11 +32,15 @@ Also exploring **MLOps and applied GenAI** — RAG architecture, grounded-answer
 
 ## 🎓 Certifications
 
-![CKS](https://img.shields.io/badge/CKS-Kubernetes_Security_Specialist-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![ICA](https://img.shields.io/badge/ICA-Istio_Certified_Associate-466BB0?style=flat&logo=istio&logoColor=white)
-![PCA](https://img.shields.io/badge/PCA-Prometheus_Certified_Associate-E6522C?style=flat&logo=prometheus&logoColor=white)
-![OTCA](https://img.shields.io/badge/OTCA-OpenTelemetry_Certified-425CC7?style=flat&logo=opentelemetry&logoColor=white)
-![GCP PDE](https://img.shields.io/badge/GCP-Professional_Data_Engineer-4285F4?style=flat&logo=googlecloud&logoColor=white)
+<p align="left">
+  <img src="https://img.shields.io/badge/CKS-Kubernetes_Security_Specialist-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="CKS"/>
+  <img src="https://img.shields.io/badge/CKA-Kubernetes_Administrator-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="CKA"/>
+  <img src="https://img.shields.io/badge/ICA-Istio_Certified_Associate-466BB0?style=flat&logo=istio&logoColor=white" alt="ICA"/>
+  <img src="https://img.shields.io/badge/PCA-Prometheus_Certified_Associate-E6522C?style=flat&logo=prometheus&logoColor=white" alt="PCA"/>
+  <img src="https://img.shields.io/badge/OTCA-OpenTelemetry_Certified-425CC7?style=flat&logo=opentelemetry&logoColor=white" alt="OTCA"/>
+  <img src="https://img.shields.io/badge/OCI-DevOps_Professional-F80000?style=flat&logo=oracle&logoColor=white" alt="OCI DevOps Pro"/>
+  <img src="https://img.shields.io/badge/GCP-Professional_Data_Engineer-4285F4?style=flat&logo=googlecloud&logoColor=white" alt="GCP PDE"/>
+</p>
 
 ---
 
