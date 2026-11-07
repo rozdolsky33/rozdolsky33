@@ -1,34 +1,35 @@
 ## Hi there 👋
 
-I'm a **Principal SRE and Platform Engineer** at Oracle Health, building cloud-native infrastructure and operational tooling in Go for FedRAMP-regulated healthcare workloads.
+I'm a **Principal SRE and Platform Engineer**. I build cloud-native infrastructure and developer tooling, mostly in Go, for environments where reliability, security, and compliance actually matter.
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![OCI](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat&logo=oracle&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat&logo=opentelemetry&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 ![Istio](https://img.shields.io/badge/Istio-466BB0?style=flat&logo=istio&logoColor=white)
 
-## What I build
+## What I care about
 
-- **Platform tooling** — Go CLIs, automation frameworks, and internal developer platforms that eliminate toil and give teams self-service capabilities
-- **Observability** — OpenTelemetry pipelines, Prometheus, distributed tracing, and SLI/SLO instrumentation across multi-cluster Kubernetes (OKE)
-- **Infrastructure automation** — Terraform, OCI Functions, External Secrets + OCI Vault, event-driven provisioning, and zero-touch deployment
-- **Service mesh & security** — Istio traffic management, mTLS, and hardened Kubernetes clusters (CKS)
-- **Reliability at scale** — Incident response, runbooks, and large-scale database migrations (MySQL → HeatWave, Redis → OCI Cache/Valkey) across 100+ services
+- **Tooling that removes toil**: Go CLIs and automation that give teams self-service instead of tickets
+- **Observability**: OpenTelemetry, Prometheus, distributed tracing, and SLIs/SLOs that tell you something true
+- **Infrastructure as code**: Terraform, event-driven provisioning, and deployments that need no hands
+- **Security by default**: service mesh, mTLS, hardened Kubernetes, and secrets handled properly
+- **Reliability**: incident response, runbooks, and migrations done without drama
 
-## Current focus
+## Currently
 
-Standardizing observability and platform patterns across a fleet of 100+ services on OCI (FedRAMP OC2) — OpenTelemetry, Prometheus, OKE, Go, and whatever removes the next piece of manual toil.
-
-Also exploring **MLOps and applied GenAI** — RAG architecture, grounded-answer contracts, model evaluation, and treating LLM accuracy as a testable, regression-gated concern rather than a vibe.
+- Standardizing observability and platform patterns across large fleets of services
+- Exploring **MLOps and applied GenAI**: RAG design, grounded answers, and treating LLM accuracy as a testable, regression-gated concern rather than a vibe
+- Building guardrails for AI coding agents: keeping sensitive data out of prompts without breaking the workflow
 
 ## 📌 Featured
 
-**[ocloud](https://github.com/cnopslabs/ocloud)** — my open-source Go CLI for OCI operations, adopted as the org-standard operational tool and used daily across my team.
+**[ocloud](https://github.com/cnopslabs/ocloud)**: an open-source Go CLI for Oracle Cloud Infrastructure operations that I use daily.
 
-**[OpenLex](https://github.com/rozdolsky33/OpenLex)** — a POC retrieval-augmented legal research assistant (NY landlord-tenant law) I built to learn MLOps by running an LLM system the way I'd run any production service. Hybrid retrieval (pgvector + Postgres FTS), grounded citations that answer *only* from retrieved statute, and — the part I care about most — a **CI-gated legal-accuracy evaluation harness**: 21 golden questions with known-correct citations fired against a live stack, run on cheap Haiku in CI and the production Sonnet model on demand, with a [**live evaluation report**](https://rozdolsky33.github.io/OpenLex/) publishing per-question pass/fail, Haiku-vs-Sonnet divergence, and statute-freshness drift. Applying SRE regression-gating and cost-awareness to GenAI, not just wiring up a demo.
+**[cui-proxy](https://github.com/rozdolsky33/cui-proxy)**: a fail-closed local proxy that masks sensitive data (IPs, resource IDs, credentials, your own dictionary) in AI coding-agent traffic with realistic synthetic values, then restores them in responses. It has a strict block-by-default policy profile, a live dashboard, and a macOS menu-bar app. Install with `brew install rozdolsky33/tap/cui-proxy`.
+
+**[OpenLex](https://github.com/rozdolsky33/OpenLex)**: a proof-of-concept retrieval-augmented legal research assistant (NY landlord-tenant law), built to learn MLOps by running an LLM system like any production service. Hybrid retrieval (pgvector + Postgres FTS), citations that answer *only* from retrieved statute, and a **CI-gated accuracy harness**: 21 golden questions with known-correct citations, run on Haiku in CI and Sonnet on demand, with a [**live evaluation report**](https://rozdolsky33.github.io/OpenLex/) showing per-question pass/fail and model divergence. SRE regression-gating and cost-awareness applied to GenAI.
 
 ## 🎓 Certifications
 
