@@ -8,12 +8,13 @@ I'm a **Principal SRE and Platform Engineer**. I build cloud-native infrastructu
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat&logo=opentelemetry&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 ![Istio](https://img.shields.io/badge/Istio-466BB0?style=flat&logo=istio&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat&logo=argo&logoColor=white)
 
 ## What I care about
 
 - **Tooling that removes toil**: Go CLIs and automation that give teams self-service instead of tickets
 - **Observability**: OpenTelemetry, Prometheus, distributed tracing, and SLIs/SLOs that tell you something true
-- **Infrastructure as code**: Terraform, event-driven provisioning, and deployments that need no hands
+- **Infrastructure as code and GitOps**: Terraform, event-driven provisioning, and Argo CD-style GitOps (Git as the source of truth, progressive delivery with Argo Rollouts) so deployments need no hands
 - **Security by default**: service mesh, mTLS, hardened Kubernetes, and secrets handled properly
 - **Reliability**: incident response, runbooks, and migrations done without drama
 
@@ -39,6 +40,7 @@ I'm a **Principal SRE and Platform Engineer**. I build cloud-native infrastructu
   <img src="https://img.shields.io/badge/ICA-Istio_Certified_Associate-466BB0?style=flat&logo=istio&logoColor=white" alt="ICA"/>
   <img src="https://img.shields.io/badge/PCA-Prometheus_Certified_Associate-E6522C?style=flat&logo=prometheus&logoColor=white" alt="PCA"/>
   <img src="https://img.shields.io/badge/OTCA-OpenTelemetry_Certified-425CC7?style=flat&logo=opentelemetry&logoColor=white" alt="OTCA"/>
+  <a href="https://www.credly.com/earner/earned/badge/2115fa68-a402-47d5-8773-a3cbed4dd5de"><img src="https://img.shields.io/badge/CAPA-Certified_Argo_Project_Associate-EF7B4D?style=flat&logo=argo&logoColor=white" alt="CAPA"/></a>
   <img src="https://img.shields.io/badge/OCI-DevOps_Professional-F80000?style=flat&logo=oracle&logoColor=white" alt="OCI DevOps Pro"/>
   <img src="https://img.shields.io/badge/GCP-Professional_Data_Engineer-4285F4?style=flat&logo=googlecloud&logoColor=white" alt="GCP PDE"/>
 </p>
